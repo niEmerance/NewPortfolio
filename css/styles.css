@@ -1,0 +1,161 @@
+@media screen and (min-width: 300px){
+    .main{
+        background: linear-gradient(
+            rgba(0,0,0, 0.5),
+            rgba(0,0,0, 0.5)),
+            url("../images/port.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+}
+@media screen and (min-width: 300px){
+    .about{
+        display: flex;
+        flex-direction: row;
+        /* background-color: rgb(0,0,0, 0.2); */
+    }
+}
+#indexA{
+      text-align: center;
+      padding: 5px;
+      margin: 5px;
+      padding-top: 150px;
+      padding-right: 30px;
+}
+#indexA h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 47px;
+    color: rgba(255,255,255,0.8);
+}
+#indexA img{
+    border-radius: 50%;
+}
+#indexA h2{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    font-size:25px;
+    color: white;
+}
+#indexA a{
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(184, 102, 16);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: -80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#navbars nav a{
+    display: block;
+    padding: 15px;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(184, 102, 16);
+}
+#navbars nav a:hover{
+    background-color:  rgb(184, 102, 16);
+    color: white;
+}
+#navbars nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: rows;
+    /* padding: 20px; */
+    margin-right: 25px;
+}
+#aboutB{
+    margin-top: -50px;
+    margin-left: 80px;
+}
+#aboutB h2{
+    /* text-align: center; */
+    color: rgb(0,0,0, 0.8);
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+}
+#aboutB h6{
+    font-size: 12px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgba(184, 102, 16,0.7);
+}
+#aboutB p{
+    font-family: 'Kaushan Script', cursive;
+    font-display: initial;
+    font-size: 20px;
+    color: grey;
+}
+.skillsTable{
+    background-color: rgb(0,0,0, 0.2);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.skillsTable table{
+      margin-left: 50px;
+      height: 1000px;
+      width: 1100px;
+}
+.skillsTable h1{
+      text-align: center;
+      font-size: 45px;
+}
+.skillsTable table td{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(199, 112, 158);
+}
+.apps{
+    background-color: rgb(0,0,0, 0.2);
+}
+.apps h1{
+    text-align: center;
+}
+.apps table{
+    margin-left: 200px;
+}
+.apps table tr td h6{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 30px;
+}
+.apps table tr td p{
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+.apps table tr td a{
+    margin-left: 350px;
+    font-size: 150x;
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
+#contacts{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 180px;
+    
+
+}
+.contactscontainer{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(0,0,0, 0.2);
+}
+.footer{
+    font-family: arial;
+    font-weight: normal;
+    background-color: rgba(0,0,0, 0.8);
+    color: rgba(204,204,204, 0.5);
+    text-align: center;
+    margin-top: -25px;
+  }
