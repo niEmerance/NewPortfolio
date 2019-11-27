@@ -42,7 +42,7 @@
     text-decoration: none;
     border-radius: 50px;
     cursor: pointer;
-    background-color: rgb(184, 102, 16);
+    background-color: rgb(255,20,147);
     font-family: 'Kaushan Script', cursive;
     font-size: 20px;
     font-weight: bold;
@@ -80,16 +80,17 @@
 #aboutB h2{
     /* text-align: center; */
     color: rgb(0,0,0, 0.8);
-    font-size: 70px;
+    font-size: 50px;
+    margin-top: 100px;
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baskervville', serif;
 }
 #aboutB h6{
     font-size: 12px;
     text-align: center;
     margin-top: -10px;
     font-family: 'Abril Fatface', cursive;
-    color: rgba(184, 102, 16,0.7);
+    color: rgb(255,182,193);
 }
 #aboutB p{
     font-family: 'Kaushan Script', cursive;
@@ -99,9 +100,9 @@
 }
 #skills h2{
     color: rgb(0,0,0, 0.8);
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baskervville', serif;
 }
 #skills table{
     text-align: center;
@@ -110,50 +111,72 @@
     width: 1200px;
     font-family: 'Abril Fatface', cursive;
     font-size: 25px;
-    background-color: rgba(0,0,0, 0.9);
-    color: grey;
+    background-color: rgba(23, 8, 59, 0.9);
+    color: rgba(255,255,255,0.8);
 }
 #skills table td {
     border-bottom: 2px solid rgba(148, 142, 142, 0.5);
     width: 50px;
 }
-.apps{
-    background-color: rgb(0,0,0, 0.2);
+.projects{
+    display: flex;
+    flex-direction: row;
 }
-.apps h1{
+.apps{
+    margin-left: 40px;
+    padding: 20px;
+}
+.apps h2{
+    color: rgb(0,0,0, 0.8);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+}
+
+.apps .projects #pro1 h1{
+    /* padding-top: 90px;
+    padding-left: 80px; */
+    color: rgb(36, 12, 73);
+}
+.apps .projects #projectsDesc{
+    margin-left: 200px;
+    margin-top: 120px;
+    font-family: 'Kaushan Script', cursive;
+    font-display: initial;
+    font-size: 20px;
+    color: grey;
+}
+.apps .projects #projectsDesc h3{
     text-align: center;
 }
-.apps table{
+.apps .projects #projectsDesc a{
     margin-left: 200px;
 }
-.apps table tr td h6{
-    margin-top: 2px;
-    text-align: center;
-    font-size: 30px;
-}
-.apps table tr td p{
-    margin-top: 60px;
-    font-size: 20px;
-    text-align: center;
-}
-.apps table tr td a{
-    margin-left: 350px;
-    font-size: 150x;
-    text-decoration: none;
-    border-radius: 100px;
-    background-color: black;
-    color: white;
+
+.apps .projects #pro2 h1{
+    /* padding-top: 90px;
+    padding-left: 80px; */
+    color: rgb(36, 12, 73);
 }
 #contacts{
-    margin-top: 30px;
-    text-align: center;
-    font-size: 25px;
-    margin-left: 180px;
-    
+    display:flex;
+    flex-direction: row;
+    margin-left: 40px;
+    padding: 30px; 
 
 }
-.contactscontainer{
- text-align: center;
+.contact h2{
+    color: rgb(0,0,0, 0.8);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+}
+.contact #contacts img{
+    margin-top: 150px;
+
+}
+.contact #contacts table{
+    width:500px;
 }
 .footer{
     font-family: arial;
