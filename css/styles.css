@@ -29,7 +29,7 @@
     color: rgba(255,255,255,0.8);
 }
 #indexA img{
-    border-radius: 50%;
+    border-radius: 100%;
 }
 #indexA h2{
     font-family: 'Kaushan Script', cursive;
@@ -71,18 +71,23 @@
     /* padding: 20px; */
     margin-right: 25px;
 }
+
 #aboutB{
     margin-top: -50px;
-    margin-left: 80px;
+    margin-left: 200px;
+    
 }
 #aboutB h2{
     /* text-align: center; */
     color: rgb(0,0,0, 0.8);
     font-size: 70px;
+    text-align: center;
     font-family: 'Abril Fatface', cursive;
 }
 #aboutB h6{
     font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
     font-family: 'Abril Fatface', cursive;
     color: rgba(184, 102, 16,0.7);
 }
@@ -92,24 +97,25 @@
     font-size: 20px;
     color: grey;
 }
-.skillsTable{
-    background-color: rgb(0,0,0, 0.2);
-    margin-top: 10px;
-    margin-left: 20px;
+#skills h2{
+    color: rgb(0,0,0, 0.8);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
 }
-.skillsTable table{
-      margin-left: 50px;
-      height: 1000px;
-      width: 1100px;
-}
-.skillsTable h1{
-      text-align: center;
-      font-size: 45px;
-}
-.skillsTable table td{
+#skills table{
+    text-align: center;
+    margin-left: 40px;
+    height: 400px;
+    width: 1200px;
+    font-family: 'Abril Fatface', cursive;
     font-size: 25px;
-    font-weight: bold;
-    color:rgb(199, 112, 158);
+    background-color: rgba(0,0,0, 0.9);
+    color: grey;
+}
+#skills table td {
+    border-bottom: 2px solid rgba(148, 142, 142, 0.5);
+    width: 50px;
 }
 .apps{
     background-color: rgb(0,0,0, 0.2);
@@ -147,9 +153,7 @@
 
 }
 .contactscontainer{
-    display:flex;
-    flex-direction: row;
-    background-color: rgb(0,0,0, 0.2);
+ text-align: center;
 }
 .footer{
     font-family: arial;
@@ -159,3 +163,6 @@
     text-align: center;
     margin-top: -25px;
   }
+.footer #content #social a{
+    color: rgba(204,204,204, 0.5);
+}
